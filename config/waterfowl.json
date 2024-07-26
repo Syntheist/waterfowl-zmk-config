@@ -52,6 +52,13 @@
   },
   "sensors": [
     {
+      "ref": "left_encoder_roller",
+      "name": "encoder_left_roller",
+      "identifier": "encoder_left_roller",
+      "compatible": "alps,ec11",
+      "label": "LEFT_ENCODER_ROLLER"
+    },
+    {
       "ref": "left_encoder",
       "name": "encoder_left",
       "identifier": "encoder_left",
@@ -59,13 +66,13 @@
       "label": "LEFT_ENCODER"
     },
     {
-      "ref": "left_encoder1",
-      "name": "encoder_left1",
-      "identifier": "encoder_left1",
+      "ref": "right_encoder_roller",
+      "name": "encoder_right_roller",
+      "identifier": "encoder_right_roller",
       "compatible": "alps,ec11",
-      "label": "LEFT_ENCODER1"
-    },
-    {
+      "label": "RIGHT_ENCODER"
+    }
+        {
       "ref": "right_encoder",
       "name": "encoder_right",
       "identifier": "encoder_right",
