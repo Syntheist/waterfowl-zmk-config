@@ -57,7 +57,8 @@
       "identifier": "encoder_left",
       "compatible": "alps,ec11",
       "label": "LEFT_ENCODER"
-    },    {
+    },
+    {
       "ref": "left_encoder1",
       "name": "encoder_left1",
       "identifier": "encoder_left1",
