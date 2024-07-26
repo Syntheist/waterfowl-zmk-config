@@ -71,7 +71,7 @@
       "identifier": "encoder_right_roller",
       "compatible": "alps,ec11",
       "label": "RIGHT_ENCODER"
-    }
+    },
         {
       "ref": "right_encoder",
       "name": "encoder_right",
