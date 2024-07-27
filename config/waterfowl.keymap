@@ -17,6 +17,7 @@
             label = "td_shift_caps";
             #binding-cells = <0>;
             bindings = <&kp RIGHT_SHIFT>, <&caps_word>;
+        };
 
 better_cap_word: better_cap_word {
             compatible = "zmk,behavior-caps-word";
