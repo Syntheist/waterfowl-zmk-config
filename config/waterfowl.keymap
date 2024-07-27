@@ -347,7 +347,7 @@
     };
 
     macros {
-        new_macro: new_macro {
+
         shift_clear_bt0: shift_clear_bt0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
