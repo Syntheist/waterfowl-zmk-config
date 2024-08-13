@@ -465,6 +465,16 @@
             bindings = <&i_m>;
             key-positions = <26 7>;
         };
+
+        right_tap_dance_shift {
+            bindings = <&better_cap_word>;
+            key-positions = <6 7>;
+        };
+
+        apostrophe {
+            bindings = <&kp SQT>;
+            key-positions = <26 27>;
+        };
     };
 
     keymap {
@@ -515,10 +525,10 @@
  */
 
             bindings = <
-&trans    &kp PG_UP   &kp UP    &kp PG_DN  &kp PERIOD              &kp PLUS   &kp N7  &kp N8  &kp N9  &kp ASTERISK
-&kp HOME  &kp LEFT    &kp DOWN  &kp RIGHT  &kp END                 &kp MINUS  &kp N4  &kp N5  &kp N6  &kp FSLH
-&trans    &kp DOLLAR  &kp INS   &kp POUND  &kp RA(LC(NUMBER_4))    &kp N0     &kp N1  &kp N2  &kp N3  &kp EQUAL
-&trans    &trans      &trans    &trans     &trans                  &trans     &trans  &trans  &trans  &trans
+&kp LS(SEMICOLON)  &kp PG_UP   &kp UP                       &kp PG_DN  &kp PERIOD              &kp PLUS   &kp N7  &kp N8  &kp N9  &kp ASTERISK
+&kp HOME           &kp LEFT    &kp DOWN                     &kp RIGHT  &kp END                 &kp MINUS  &kp N4  &kp N5  &kp N6  &kp FSLH
+&trans             &kp DOLLAR  &tap_dance_l_shift_capwords  &kp POUND  &kp RA(LC(NUMBER_4))    &kp N0     &kp N1  &kp N2  &kp N3  &kp EQUAL
+&trans             &trans      &trans                       &trans     &trans                  &trans     &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
