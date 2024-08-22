@@ -554,10 +554,10 @@
  */
 
             bindings = <
-&kp PRCNT  &kp AT     &kp LBKT  &kp RBKT  &kp NON_US_BSLH    &kp MINUS  &trans         &kp CARET          &trans     &trans
-&kp HASH   &kp EXCL   &kp LPAR  &kp RPAR  &kp PIPE           &kp UNDER  &kp APOS       &kp DOUBLE_QUOTES  &kp TILDE  &kp GRAVE
-&kp DLLR   &kp COLON  &kp LBRC  &kp RBRC  &kp AMPS           &trans     &kp AMPERSAND  &trans             &trans     &trans
-&trans     &trans     &trans    &trans    &trans             &trans     &trans         &trans             &trans     &trans
+&kp PRCNT  &kp AT     &kp LBKT  &kp RBKT  &kp NON_US_BSLH    &kp UNDERSCORE  &kp AMPERSAND    &kp CARET          &trans            &trans
+&kp HASH   &kp EXCL   &kp LPAR  &kp RPAR  &kp PIPE           &kp MINUS       &kp APOS         &kp DOUBLE_QUOTES  &kp TILDE         &kp GRAVE
+&kp DLLR   &kp COLON  &kp LBRC  &kp RBRC  &kp AMPS           &trans          &kp EXCLAMATION  &kp AT_SIGN        &kp RS(NUMBER_3)  &trans
+&trans     &trans     &trans    &trans    &trans             &trans          &trans           &trans             &trans            &trans
             >;
 
             sensor-bindings =
